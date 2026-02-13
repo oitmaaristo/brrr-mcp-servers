@@ -1,0 +1,54 @@
+{
+  "project": "brrr-mcp-servers",
+  "last_updated": "2026-02-13T01:42:00Z",
+  "current_session": {
+    "started": null,
+    "focus": null,
+    "status": "awaiting_start"
+  },
+  "servers": {
+    "bingx-mcp": {
+      "status": "planned",
+      "priority": 1,
+      "competition": "none",
+      "estimated_days": 7,
+      "completion": 0,
+      "work_order": "WO-MCP-001"
+    },
+    "mexc-mcp": {
+      "status": "planned",
+      "priority": 2,
+      "competition": "none",
+      "estimated_days": 7,
+      "completion": 0,
+      "work_order": "WO-MCP-002"
+    },
+    "kraken-mcp": {
+      "status": "planned",
+      "priority": 3,
+      "competition": "1 weak",
+      "estimated_days": 10,
+      "completion": 0,
+      "work_order": "WO-MCP-003"
+    }
+  },
+  "revenue": {
+    "month_1_target": 500,
+    "month_3_target": 1500,
+    "month_6_target": 5000,
+    "currency": "EUR",
+    "current_mrr": 0
+  },
+  "platforms": {
+    "apify": {
+      "account": null,
+      "deployed_servers": []
+    }
+  },
+  "blockers": [],
+  "next_actions": [
+    "Create Apify developer account",
+    "Set up shared package structure", 
+    "Start WO-MCP-001: BingX MCP Server"
+  ]
+}
