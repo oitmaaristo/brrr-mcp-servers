@@ -40,3 +40,9 @@ coverage/
 *.key
 *.secret
 credentials.json
+
+# Large media files
+*.mp3
+*.mp4
+*.wav
+*.m4a
